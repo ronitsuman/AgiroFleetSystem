@@ -5,9 +5,9 @@ Target Duration: 3 Hours
 
 ----------------------------------
 
-PHASE 1 – Backend Foundation
+PHASE 1 – Backend Foundation /////completed 
 
-[ ] init backend node project
+[>""<] init backend node project
 [ ] install dependencies
 [ ] configure package.json
 [ ] create folder structure
@@ -20,7 +20,7 @@ PHASE 1 – Backend Foundation
 
 ----------------------------------
 
-PHASE 2 – Auth System
+PHASE 2 – Auth System //////started
 
 [ ] user model
 [ ] password hashing
