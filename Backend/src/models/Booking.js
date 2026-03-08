@@ -1,4 +1,4 @@
-import mongoose from "mongoose";
+import mongoose, { trusted } from "mongoose";
 
 const bookingSchema = new mongoose.Schema(
  {
@@ -17,6 +17,15 @@ const bookingSchema = new mongoose.Schema(
    type: String,
    required: true
   },
+  startDate: {
+ type: Date,
+ required: true
+},
+
+endDate: {
+ type: Date,
+ required: true
+},
 
   vendorId: {
    type: mongoose.Schema.Types.ObjectId,
@@ -30,7 +39,8 @@ const bookingSchema = new mongoose.Schema(
 
   vehicleId: {
    type: mongoose.Schema.Types.ObjectId,
-   ref: "Vehicle"
+   ref: "Vehicle",
+   required:true
   },
 
   status: {

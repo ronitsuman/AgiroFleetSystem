@@ -19,7 +19,8 @@ import express from "express";
 import {
  addVehicle,
  getVehicles,
- approveVehicle
+ approveVehicle,
+ getVehicleCalendar
 } from "../controllers/vehicleController.js";
 
 import { protect } from "../middlewares/authMiddleware.js";
@@ -37,5 +38,6 @@ router.patch(
  allowRoles("admin"),
  approveVehicle
 );
+router.get("/calendar/:vehicleId", getVehicleCalendar);
 
 export default router;
