@@ -4,4 +4,4 @@
 10:15 – Dependencies installed
 10:25 – Server running
 
-Total time: 25 minutes
+2:52 RBAC module start

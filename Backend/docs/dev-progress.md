@@ -5,32 +5,32 @@ Target Duration: 3 Hours
 
 ----------------------------------
 
-PHASE 1 – Backend Foundation /////completed 
+PHASE 1 – Backend Foundation /////completed ✔
 
 [>""<] init backend node project
-[ ] install dependencies
-[ ] configure package.json
-[ ] create folder structure
-[ ] create server files
-[ ] mongodb connection
-[ ] express app setup
-[ ] server entry
-[ ] env setup
-[ ] server test
+[ ✔] install dependencies
+[ ✔] configure package.json
+[✔ ] create folder structure
+[✔ ] create server files
+[ ✔] mongodb connection
+[ ✔] express app setup
+[ ✔] server entry
+[ ✔] env setup
+[ ✔] server test
 
 ----------------------------------
 
-PHASE 2 – Auth System //////started
+PHASE 2 – Auth System //////complted ✔
 
-[ ] user model
-[ ] password hashing
-[ ] register api
-[ ] login api
-[ ] jwt middleware
+[ ✔] user model
+[✔ ] password hashing
+[ ✔] register api
+[✔ ] login api
+[ ✔] jwt middleware
 
 ----------------------------------
 
-PHASE 3 – Vehicles
+PHASE 3 – Vehicles module started //// started 3:20
 
 [ ] vehicle model
 [ ] add vehicle api
@@ -60,3 +60,9 @@ PHASE 6 – Vendor Earnings
 [ ] vendor earning model
 [ ] admin add earning
 [ ] vendor earnings view
+
+PHASE – Security
+
+[ ] role middleware
+[ ] protect admin routes
+[ ] protect vendor routes
