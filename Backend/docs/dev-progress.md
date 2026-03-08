@@ -44,6 +44,15 @@ PHASE 4 – Bookings
 [ ] booking model
 [ ] create booking
 [ ] booking list
+PHASE – Booking & Trips
+
+[ ] booking model
+[ ] create booking api
+[ ] assign vendor
+[ ] assign helper
+[ ] trip model
+[ ] start trip
+[ ] complete trip
 
 ----------------------------------
 
@@ -62,7 +71,7 @@ PHASE 6 – Vendor Earnings
 [ ] vendor earnings view
 
 PHASE – Security
-
+RBAC security ✔
 [ ] role middleware
 [ ] protect admin routes
 [ ] protect vendor routes
